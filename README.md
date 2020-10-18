@@ -12,7 +12,9 @@ ERROR: Cannot install pynacl==1.2.1 and discord-py[voice] 1.2.5 because these pa
 discord.py[voice] 1.2.5 depends on pynacl 1.3.0 while we requires pynacl 1.2.1 which is imcompatible, it might have something to do with version change during the time so i change it to 1.3.0 manually. And it solves without any other issues.Though this error disappear later for unknown reason…
 
 2. File not found error:
-```FileNotFoundError: [Errno 2] No such file or directory: 'config/example_permissions.ini'```
+```
+FileNotFoundError: [Errno 2] No such file or directory: 'config/example_permissions.ini'
+```
 go to the MusicBot original page and copy that file
 
 3. Voice channel play voice failure
